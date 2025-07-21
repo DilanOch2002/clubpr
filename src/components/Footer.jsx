@@ -1,11 +1,11 @@
-import styles from './Footer.module.css'
+import styles from './Footer.module.css';
 
 function Footer() {
   return (
     <footer className={styles.footer}>
-      <p>&copy; 2025 Plataforma Educativa Rafael</p>
+      <p>© {new Date().getFullYear()} ClubPR - Hecho por el profe Rafael</p>
     </footer>
-  )
+  );
 }
 
-export default Footer
+export default Footer;

@@ -1,12 +1,12 @@
-import { Routes, Route } from 'react-router-dom'
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
+import { Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
-import Home from './pages/Home'
-import Nosotros from './pages/Nosotros'
-import Cursos from './pages/Cursos'
-import Recursos from './pages/Recursos'
-import Contacto from './pages/Contacto'
+import Home from './pages/Home';
+import Nosotros from './pages/Nosotros';
+import Cursos from './pages/Cursos';
+import Recursos from './pages/Recursos';
+import Contacto from './pages/Contacto';
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
       </Routes>
       <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

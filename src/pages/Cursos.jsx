@@ -1,25 +1,16 @@
-import styles from './Cursos.module.css'
+import styles from './Cursos.module.css';
 
 function Cursos() {
   return (
     <div className={styles.container}>
-      <h1>Cursos disponibles</h1>
-      <div className={styles.cursosGrid}>
-        <div className={styles.card}>
-          <h2>Programación Básica</h2>
-          <p>Variables, condicionales, ciclos y lógica general.</p>
-        </div>
-        <div className={styles.card}>
-          <h2>Base de Datos</h2>
-          <p>SQL, estructuras, relaciones y consultas.</p>
-        </div>
-        <div className={styles.card}>
-          <h2>Desarrollo Web</h2>
-          <p>HTML, CSS y JavaScript desde cero.</p>
-        </div>
-      </div>
+      <h2>Categorías de Cursos</h2>
+      <ul>
+        <li>💻 Programación Básica</li>
+        <li>🛢️ Bases de Datos</li>
+        <li>🌐 Desarrollo Web</li>
+      </ul>
     </div>
-  )
+  );
 }
 
-export default Cursos
+export default Cursos;

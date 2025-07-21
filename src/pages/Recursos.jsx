@@ -1,16 +1,12 @@
-import styles from './Recursos.module.css'
+import styles from './Recursos.module.css';
 
 function Recursos() {
   return (
     <div className={styles.container}>
-      <h1>Recursos gratuitos</h1>
-      <ul>
-        <li><a href="#">📄 Guía de programación PDF</a></li>
-        <li><a href="#">📘 Ejercicios prácticos</a></li>
-        <li><a href="#">💾 Archivos de ejemplo</a></li>
-      </ul>
+      <h2>Recursos Gratuitos</h2>
+      <p>Descargá guías, ejercicios y material adicional para complementar tu aprendizaje.</p>
     </div>
-  )
+  );
 }
 
-export default Recursos
+export default Recursos;
