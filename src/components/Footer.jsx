@@ -3,7 +3,7 @@ import styles from './Footer.module.css';
 function Footer() {
   return (
     <footer className={styles.footer}>
-      <p>© {new Date().getFullYear()} ClubPR - Hecho por el profe Rafael</p>
+      <p>© 2025 ClubPR. Todos los derechos reservados.</p>
     </footer>
   );
 }
