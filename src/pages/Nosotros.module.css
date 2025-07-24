@@ -2,9 +2,10 @@
 .nosotros {
   width: 100%;
   max-width: 1200px;
-  margin: auto;
-  padding: 3rem 2rem;
+  margin: 0 auto;
+  padding: 3rem 1rem;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .nosotros h1 {
@@ -14,10 +15,13 @@
 
 .imagen {
   width: 100%;
-  max-height: 300px;
+  max-width: 1000px;
+  height: auto;
+  max-height: 400px;
   object-fit: cover;
   border-radius: 1rem;
-  margin-bottom: 2rem;
+  margin: 0 auto 2rem auto;
+  display: block;
 }
 
 .nosotros p {
@@ -37,10 +41,12 @@
   .nosotros h1 {
     font-size: 2rem;
   }
-  .imagen {
-    max-height: 200px;
-  }
+
   .nosotros p {
     font-size: 1rem;
+  }
+
+  .imagen {
+    max-height: 250px;
   }
 }
