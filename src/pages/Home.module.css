@@ -6,35 +6,25 @@
 }
 
 .hero {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
   background: linear-gradient(to right, #1e3c72, #2a5298);
   color: white;
   padding: 4rem 2rem;
   border-radius: 1rem;
+  text-align: center;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 1200px;
   margin: auto;
-  flex-wrap: wrap;
-  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .heroImage {
-  width: 100%;
-  max-width: 400px;
+  max-width: 100%;
   height: auto;
   border-radius: 10px;
-  flex-shrink: 0;
-}
-
-.heroText {
-  flex: 1;
-  min-width: 280px;
-  max-width: 700px;
+  margin-bottom: 2rem;
 }
 
 .hero h1 {
@@ -45,7 +35,9 @@
 .hero p {
   font-size: 1.1rem;
   line-height: 1.6;
-  margin-top: 0;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
 
 .destacado {
@@ -85,17 +77,6 @@
 }
 
 @media (max-width: 768px) {
-  .hero {
-    flex-direction: column;
-    text-align: center;
-    padding: 2rem 1rem;
-  }
-
-  .heroImage {
-    max-width: 100%;
-    margin-bottom: 1.5rem;
-  }
-
   .hero h1 {
     font-size: 1.8rem;
   }
