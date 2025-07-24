@@ -1,3 +1,5 @@
+
+/* RECURSOS */
 .recursos {
   width: 100%;
   max-width: 1200px;
@@ -11,13 +13,13 @@
   margin-bottom: 3rem;
 }
 
-.grid {
+.recursos .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2rem;
 }
 
-.card {
+.recursos .card {
   background-color: #fff;
   padding: 2rem;
   border-radius: 8px;
@@ -25,49 +27,49 @@
   transition: transform 0.3s ease-in-out;
 }
 
-.card:hover {
+.recursos .card:hover {
   transform: translateY(-5px);
 }
 
-.card img {
+.recursos .card img {
   width: 80px;
   height: auto;
   margin-bottom: 1rem;
 }
 
-.card h3 {
+.recursos .card h3 {
   font-size: 1.2rem;
   margin-bottom: 1rem;
   color: #2c3e50;
 }
 
-.card p {
+.recursos .card p {
   font-size: 1rem;
   color: #7f8c8d;
   margin-bottom: 1rem;
 }
 
-.card a {
+.recursos .card a {
   font-size: 1rem;
   color: #3498db;
   text-decoration: none;
   font-weight: bold;
 }
 
-.card a:hover {
+.recursos .card a:hover {
   text-decoration: underline;
 }
 
 @media (max-width: 768px) {
-  .card img {
+  .recursos .card img {
     width: 60px;
   }
 
-  .card h3 {
+  .recursos .card h3 {
     font-size: 1.1rem;
   }
 
-  .card p {
+  .recursos .card p {
     font-size: 0.95rem;
   }
 }
