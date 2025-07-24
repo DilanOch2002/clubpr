@@ -1,4 +1,3 @@
-// src/pages/Home.jsx
 import React from 'react';
 import styles from './Home.module.css';
 import heroImg from '../assets/hero.jpg';
@@ -10,7 +9,9 @@ function Home() {
         <img src={heroImg} alt="Hero" className={styles.heroImage} />
         <div className={styles.heroText}>
           <h1>Bienvenido al Club de Programación UT Cancún</h1>
-          <p>Aprende programación desde cero, domina herramientas reales y prepárate para el mundo profesional.</p>
+          <p>
+            Aprende programación desde cero, domina herramientas reales y prepárate para el mundo profesional.
+          </p>
         </div>
       </section>
 
