@@ -8,7 +8,7 @@ function Home() {
       <section className={styles.hero}>
         <img src={heroImg} alt="Hero" className={styles.heroImage} />
         <div className={styles.heroText}>
-          <h1>Bienvenido al Club de Programación UT Cancún</h1>
+          <h1>Bienvenido a ClubPR</h1>
           <p>
             Aprende programación desde cero, domina herramientas reales y prepárate para el mundo profesional.
           </p>

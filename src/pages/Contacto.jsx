@@ -22,11 +22,10 @@ function Contacto() {
 
         <div className={styles.info}>
           <h3>Información de contacto</h3>
-          <p><strong>Edificio:</strong> H</p>
-          <p><strong>Correo:</strong> rvillegas@utcancun.edu.mx</p>
-          <p><strong>Dirección:</strong> División de Ingeniería - UT Cancún</p>
-          <p><strong>Facebook:</strong> <a href="https://www.facebook.com/utcancun">UT Cancún</a></p>
-          <p><strong>Instagram:</strong> <a href="https://www.instagram.com/ut_cancun">@ut_cancun</a></p>
+          <p><strong>Correo:</strong> Rafael@gmail.com</p>
+          <p><strong>Dirección:</strong> División de Ingeniería</p>
+          <p><strong>Facebook:</strong> <a href="https://www.facebook.com/">Universidad</a></p>
+          <p><strong>Instagram:</strong> <a href="https://www.instagram.com/">@universidad</a></p>
         </div>
       </div>
     </div>
