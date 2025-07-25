@@ -1,11 +1,11 @@
-
 /* RECURSOS */
 .recursos {
   width: 100%;
   max-width: 1200px;
-  margin: auto;
-  padding: 2rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .recursos h1 {
@@ -60,6 +60,7 @@
   text-decoration: underline;
 }
 
+/* RESPONSIVE */
 @media (max-width: 768px) {
   .recursos .card img {
     width: 60px;
